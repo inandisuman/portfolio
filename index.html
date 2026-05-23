@@ -67,12 +67,9 @@
     }
 
     .nav-logo {
-      font-family: var(--font-mono);
-      font-size: 14px;
-      font-weight: 700;
-      color: var(--blue);
+      display: flex;
+      align-items: center;
       text-decoration: none;
-      letter-spacing: -0.5px;
     }
 
     .nav-links {
@@ -643,7 +640,12 @@
 
   <!-- NAV -->
   <nav>
-    <a href="#hero" class="nav-logo">suman.dev</a>
+    <a href="#hero" class="nav-logo">
+      <svg width="36" height="22" viewBox="0 0 36 22" xmlns="http://www.w3.org/2000/svg">
+        <text x="0" y="19" font-family="'Sora',sans-serif" font-weight="800" font-size="22" fill="#58a6ff" letter-spacing="-1">S</text>
+        <text x="13" y="19" font-family="'Sora',sans-serif" font-weight="800" font-size="22" fill="#f78166" letter-spacing="-1">N</text>
+      </svg>
+    </a>
     <ul class="nav-links">
       <li><a href="#about">about</a></li>
       <li><a href="#skills">skills</a></li>
@@ -916,8 +918,7 @@
 
   <!-- FOOTER -->
   <footer>
-    <p>Designed & built by <span>Suman Nandi</span></p>
-    <p>© 2026 · <a href="https://github.com/inandisuman/portfolio" style="color:var(--muted);text-decoration:none;" target="_blank">Source on GitHub</a></p>
+    <p>© 2026 · Designed & built by <span>Suman Nandi</span></p>
   </footer>
 
   <script>
